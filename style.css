@@ -903,3 +903,17 @@ footer {
     word-break: break-word !important;
   }
 }
+
+.project-link {
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: opacity 0.3s;
+}
+.project-link:hover {
+  opacity: 0.7;
+}
