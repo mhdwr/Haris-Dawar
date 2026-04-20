@@ -554,8 +554,10 @@ section {
 
 .p1 { background: linear-gradient(135deg, #667eea, #764ba2); }
 .p2 {
-  background: url('https://savoria-restaurant-weld.vercel.app/') no-repeat center center;
+  background-image: url('savoria.png');
   background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 .p3 { background: linear-gradient(135deg, #11998e, #38ef7d); }
 
