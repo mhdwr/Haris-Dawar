@@ -799,3 +799,78 @@ footer {
     box-sizing: border-box;
   }
 }
+
+@media (max-width: 380px) {
+  .hero-name {
+    font-size: 2.8rem !important;
+  }
+
+  .hero-tagline {
+    font-size: 1rem !important;
+  }
+
+  .hero-desc {
+    font-size: 0.8rem !important;
+    letter-spacing: 1px !important;
+  }
+
+  .hero-badge {
+    font-size: 0.75rem !important;
+    padding: 0.4rem 1rem !important;
+  }
+
+  .hero-btns {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.8rem !important;
+  }
+
+  .btn-primary,
+  .btn-glass {
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .stat-item .stat-num {
+    font-size: 1.3rem !important;
+  }
+
+  .stat-label {
+    font-size: 0.7rem !important;
+  }
+
+  .section-title {
+    font-size: 1.5rem !important;
+  }
+
+  .about-inner {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .skill-card {
+    padding: 1.2rem !important;
+  }
+
+  .skill-tags span {
+    font-size: 0.7rem !important;
+    padding: 0.2rem 0.6rem !important;
+  }
+
+  .contact-inner {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .navbar {
+    padding: 0.9rem 1rem !important;
+  }
+
+  .nav-logo {
+    font-size: 1.1rem !important;
+  }
+
+  .btn-nav {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.8rem !important;
+  }
+}
