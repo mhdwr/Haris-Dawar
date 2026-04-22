@@ -559,7 +559,19 @@ section {
   background-position: center top;
   background-repeat: no-repeat;
 }
-.p3 { background: linear-gradient(135deg, #11998e, #38ef7d); }
+.p3 {
+  background-image: url('fitwithAlex.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.p4 {
+  background-image: url('novabyte.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
 
 .project-overlay {
   position: absolute;
