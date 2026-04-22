@@ -552,7 +552,12 @@ section {
   overflow: hidden;
 }
 
-.p1 { background: linear-gradient(135deg, #667eea, #764ba2); }
+.p1 {
+    background-image: url('commingSoon.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 .p2 {
   background-image: url('savoria.png');
   background-size: cover;
