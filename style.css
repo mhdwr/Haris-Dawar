@@ -578,6 +578,13 @@ section {
   background-repeat: no-repeat;
 }
 
+.p5 {
+  background-image: url('hireiq.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
 .project-overlay {
   position: absolute;
   bottom: 0; left: 0;
